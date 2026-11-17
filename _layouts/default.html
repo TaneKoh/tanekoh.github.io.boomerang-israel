@@ -11,7 +11,7 @@
 
     <!-- 1. Banner + title box -->
     <div class="banner">
-      <img src="/assets/images/banner.jpg" alt="Banner">
+      <img src="{{ '/assets/images/banner.jpg' | relative_url }}" alt="Banner">
       <div class="title-box">
         <h1>{{ page.title | default: site.title }}</h1>
       </div>
