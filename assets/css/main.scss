@@ -83,6 +83,9 @@ body {
   margin: 60px auto;
   padding: 0 24px;
 }
+.zigzag-row--reverse {
+  flex-direction: row-reverse;
+}
 .zigzag-row {
   display: flex;
   align-items: center;
@@ -94,9 +97,6 @@ body {
 .zigzag-row:last-child {
   margin-bottom: 0;
   border-bottom: none;
-}
-.zigzag-row:nth-child(even) {
-  flex-direction: row-reverse;
 }
 .zigzag-image {
   flex: 0 0 50%;
